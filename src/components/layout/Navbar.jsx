@@ -121,8 +121,8 @@ const Navbar = () => {
               className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center w-[170px] h-[170px] rounded-full shadow-lg transition-all duration-500 bg-white
             ${
               showHeader
-                ? "opacity-0 -translate-y-5"
-                : "opacity-100 -translate-y-0"
+                ? "opacity-0 translate-y-5"
+                : "opacity-100 translate-y-0"
             } `}
             >
               <figure className="w-[147px] h-[147px] rounded-full overflow-hidden bg-sky-50">
